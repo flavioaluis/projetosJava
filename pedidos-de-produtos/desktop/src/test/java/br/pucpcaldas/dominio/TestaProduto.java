@@ -1,8 +1,10 @@
 package br.pucpcaldas.dominio;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+
+import br.pucpcaldas.pedidos.dominio.Produto;
 
 /**
  * Unit test for simple App.
@@ -15,6 +17,6 @@ class TestaProduto {
 
         assertEquals(1, caneta.getCodigo());
         assertEquals("caneta", caneta.getNome());
-        assertEquals(1.50, caneta.getPreco());
+        assertEquals(1.50, caneta.getPreco(), 0.001);
     }
 }
