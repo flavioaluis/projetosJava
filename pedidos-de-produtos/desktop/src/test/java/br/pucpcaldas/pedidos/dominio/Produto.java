@@ -1,4 +1,4 @@
-package br.pucpcaldas.dominio;
+package br.pucpcaldas.pedidos.dominio;
 
 /**
  * Um objeto de classe <code>Produto</code> representa as informações  de um produto.

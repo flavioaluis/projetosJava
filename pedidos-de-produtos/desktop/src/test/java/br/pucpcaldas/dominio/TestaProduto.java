@@ -9,10 +9,10 @@ import br.pucpcaldas.pedidos.dominio.Produto;
 /**
  * Unit test for simple App.
  */
-class TestaProduto {
+public class TestaProduto {
    
     @Test
-    void testeConstrutor_DeveCriarUmProdutoValido() {
+    public void testeConstrutor_DeveCriarUmProdutoValido() {
         Produto caneta = new Produto(1, "caneta", 1.50);
 
         assertEquals(1, caneta.getCodigo());
